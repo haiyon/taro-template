@@ -1,0 +1,12 @@
+.storybook
+node_modules
+dist
+dist-ssr
+package.json
+pnpm-lock.yaml
+tsconfig.json
+public
+*.mdx
+.env*
+.DS_Store
+*.local
