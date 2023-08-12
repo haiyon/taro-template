@@ -14,6 +14,7 @@ export const minus: ActionCreator<AnyAction> = () => {
 };
 
 // 异步的 action
+// eslint-disable-next-line no-unused-vars
 export function asyncAdd(): (dispatch: Dispatch<AnyAction>) => void {
   return dispatch => {
     setTimeout(() => {
